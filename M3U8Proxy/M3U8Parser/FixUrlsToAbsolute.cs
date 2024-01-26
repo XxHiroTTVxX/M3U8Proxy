@@ -77,7 +77,7 @@ public partial class M3U8Parser
         var lastLineText = lines[lastIndex];
         var testToInsert = new[]
         {
-            "#EXTINF:6.266667,",
+            "#EXTINF:6.222948,",
             baseUrl + "video/intro.ts" + keyParam,
             "#EXT-X-DISCONTINUITY",
             lastLineText
