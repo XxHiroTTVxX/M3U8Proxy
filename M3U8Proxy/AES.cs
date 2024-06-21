@@ -5,7 +5,7 @@ namespace M3U8Proxy;
 
 internal class AES
 {
-    private static readonly string KeyString = "anifydobesupercoolbrodudeawesome";
+private static readonly string KeyString = Environment.GetEnvironmentVariable("AES_KEY");
 
     public static string Encrypt(string plainText)
     {
